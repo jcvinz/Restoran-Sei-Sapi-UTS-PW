@@ -10,8 +10,8 @@
           } else {
             include('../db.php');
             $user = isset($_SESSION['user']) ? $_SESSION['user'] : die('ERROR: User not found.');
-            $notelp = $user['no_telp'];
-            $query = mysqli_query($con, "SELECT * FROM users WHERE no_telp = $notelp")or die(mysqli_error($con));
+            $id = $user['id'];
+            $query = mysqli_query($con, "SELECT * FROM users WHERE id = $id")or die(mysqli_error($con));
             $data =  mysqli_fetch_assoc($query);
           }
         }

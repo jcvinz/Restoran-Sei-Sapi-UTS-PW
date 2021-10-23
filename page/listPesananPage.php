@@ -2,7 +2,7 @@
     include '../components/sidebar.php'
 ?>
 
-    <div class="container p-3 m-4 h-100" style="background-color: #FFFFFF; border-top: 5px solid #17337A; 
+    <div class="container p-3 m-4 h-100" style="background-color: #FFFFFF; border-top: 5px solid #ce453d; 
     boxshadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
         <h4>List Pesanan</h4>
         <hr>
@@ -15,6 +15,7 @@
                     <th scope="col">Alamat</th>
                     <th scope="col">Pesanan</th>
                     <th scope="col">Harga</th>
+                    <th scope="col">Status</th>
 
                     </tr>
                 </thead>
@@ -34,10 +35,20 @@
                                 <td>'.$data['no_telp'].'</td>
                                 <td>'.$data['alamat'].'</td>
                                 <td>'.$data['paket'].'</td>
-                                <td>'.$data['harga'].'</td>
+                                <td>'.$data['harga'].'</td>';
+                                if($data['status'] == 0){
+                                    echo'<td>Belum Ada Status</td>';
+                                } else if($data['status'] == 1){
+                                    echo'<td>Diproses</td>';
+                                } else if($data['status'] == 2){
+                                    echo'<td>Diantar</td>';
+                                } else if($data['status'] == 3){
+                                    echo'<td>Selesai</td>';
+                                }
+                                echo'
                                 <td>
                                 
-                                    <a href="../process/editPesananProcess.php?id='.$data['id'].'"><i style="color: green" class="fa fa-edit"></i></a>
+                                    <a href="./editPesananPage.php?id='.$data['id'].'"><i style="color: green" class="fa fa-edit"></i></a>
                                     <a href="../process/deletePesananProcess.php?id='.$data['id'].'"
                                         onClick="return confirm ( \'Yakin?\')">
                                         <i style="color: red" class="fa fa-trash"></i>

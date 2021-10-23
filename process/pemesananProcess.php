@@ -7,10 +7,10 @@
         $alamat = $_POST['alamat'];
         $paket = $_POST['pilihanPaket'];
         $harga = $_POST['hargaPaket'];
-
-        $query = mysqli_query($con, "INSERT INTO pesanan(nama, no_telp, alamat, paket, harga)
+        $status = 0;
+        $query = mysqli_query($con, "INSERT INTO pesanan(nama, no_telp, alamat, paket, harga, status)
             VALUES
-            ('$nama', '$notelp', '$alamat', '$paket', '$harga')") or die(mysqli_error($con));
+            ('$nama', '$notelp', '$alamat', '$paket', '$harga', '$status')") or die(mysqli_error($con));
         
         if($query){
             echo

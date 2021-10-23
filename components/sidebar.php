@@ -40,20 +40,14 @@
                 <div class="menu">
                     <div class="content-menu">
                     <i class="fa fa-columns"></i>
-                    <a href="./adminPage.php" style="font-weight: 600"
+                    <a href="../page/adminPage.php" style="font-weight: 600"
                         >Dashboard</a
                     >
                     </div>
                     <div class="content-menu">
                     <i class="fa fa-list"></i>
-                    <a href="./listPesananPage.php" style="font-weight: 600"
+                    <a href="../page/listPesananPage.php" style="font-weight: 600"
                         >List Pesananan</a
-                    >
-                    </div>
-                    <div class="content-menu">
-                    <i class="fa fa-plus-square"></i>
-                    <a href="./addPesananPage.php" style="font-weight: 600"
-                        >Add Pesananan</a
                     >
                     </div>
                     <div class="content-menu">
