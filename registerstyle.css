@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #ce453d !important;
+  height: 80px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+
+form {
+  align-self: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.register {
+  color: #000000;
+}
+
+.update {
+  color: #00ffff;
+}

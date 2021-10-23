@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #ce453d !important;
+  height: 80px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+
+#taglineText {
+  font-family: 'Montserrat', sans-serif;
+  color: #ce453d;
+  text-align: center;
+  margin: 20px;
+}
+
+#subJudul {
+  font-family: 'Montserrat', sans-serif;
+  color: #ce453d;
+  text-align: left;
+  margin: 0px;
+}
+
+#gambarOutlet {
+  max-width: 1000px;
+  padding: 10px;
+}
+
+.container {
+  padding: 0px;
+}
+
+#containLets {
+  width: 1000px;
+  padding: 0px;
+}
+
+#containAbout {
+  width: 1000px;
+  padding: 0px;
+}
+
+#containBtnOrder {
+  width: 1000px;
+  padding: 10px;
+}
+
+#containerFoto {
+  width: 1000px;
+}
+
+.carousel {
+  max-width: 1000px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.btn {
+  color: #ce453d !important;
+}
