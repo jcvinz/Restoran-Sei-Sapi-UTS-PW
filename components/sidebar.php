@@ -35,7 +35,7 @@
             <aside>
             <div class="d-flex">
                 <div class="side-bar">
-                <h2 class="text-light pt-2 m-4">ADMIN</h2>
+                <h2 class="text-light pt-2 m-4" style="font-weight: 600">ADMIN</h2>
                 <hr />
                 <div class="menu">
                     <div class="content-menu">

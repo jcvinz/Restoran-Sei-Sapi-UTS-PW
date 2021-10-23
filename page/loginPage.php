@@ -26,6 +26,7 @@
     />
 
     <link rel="stylesheet" href="../registerstyle.css" />
+    <link rel="stylesheet" href="../indexStyles.css" />
     <title>Login</title>
   </head>
   

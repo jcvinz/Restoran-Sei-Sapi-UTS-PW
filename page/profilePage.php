@@ -133,8 +133,8 @@
                 </div>
 
                 <div class="d-grid gap-2">
-                    <a href="<?php echo '../process/deleteUserProcess.php?id='.$data['id'].'' ?>" class="btn btn-warning" onclick="return confirm ('Yakin ingin menghapus akun ini?')">Hapus Akun</a>
-                    <a href="editProfilePage.php" class="btn btn-primary">Edit Profile</a>
+                    <a href="<?php echo '../process/deleteUserProcess.php?id='.$data['id'].'' ?>" class="btn btn-warning" onclick="return confirm ('Yakin ingin menghapus akun ini?')">HAPUS</a>
+                    <a href="editProfilePage.php" class="btn btn-primary">EDIT</a>
                 </div>
               </form>
             </div>

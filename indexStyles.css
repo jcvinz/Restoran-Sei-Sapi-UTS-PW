@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -7,6 +8,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -25,6 +27,7 @@ body {
 
 #taglineText {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
   color: #ce453d;
   text-align: center;
   margin: 20px;
@@ -32,6 +35,7 @@ body {
 
 #subJudul {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
   color: #ce453d;
   text-align: left;
   margin: 0px;
@@ -74,4 +78,8 @@ body {
 .btn {
   color: white !important;
   background-color: #ce453d !important;
+}
+
+.btn-primary {
+  border: none;
 }

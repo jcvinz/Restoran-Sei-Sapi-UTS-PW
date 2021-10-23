@@ -134,7 +134,7 @@
 
                 <div class="d-grid gap-2">
                   <button type="submit" class="btn btn-primary" name="update" onclick="return confirm ('Data Sudah Sesuai ?')">
-                    Apply
+                    APPLY
                   </button>
                 </div>
               </form>

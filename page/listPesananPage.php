@@ -4,7 +4,7 @@
 
     <div class="container p-3 m-4 h-100" style="background-color: #FFFFFF; border-top: 5px solid #ce453d; 
     boxshadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-        <h4>List Pesanan</h4>
+        <h3 style="color: #ce453d; font-weight: 600">List Pesanan</h3>
         <hr>
             <table class="table">
                 <thead>
@@ -19,7 +19,7 @@
 
                     </tr>
                 </thead>
-                <tbody>
+                <tbody style="font-weight: 400">
                     <?php
                     $query = mysqli_query($con, "SELECT * FROM pesanan") or die(mysqli_error($con));
 
