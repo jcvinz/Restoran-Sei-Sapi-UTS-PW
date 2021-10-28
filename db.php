@@ -1,8 +1,8 @@
 <?php
-    $host = "localhost";
-    $user = "root";
-    $pass = "";
-    $name = "restoran_sei_sapi";
+    $host = "sql102.epizy.com";
+    $user = "epiz_30159864";
+    $pass = "J1dvJKDSXMZGi";
+    $name = "epiz_30159864_restoran_sei_sapi";
 
     $con = mysqli_connect($host,$user,$pass,$name);
 

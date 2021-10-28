@@ -17,7 +17,7 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-xxl">
+      <div class="container-xxl"> 
         <a class="navbar-brand" href="./index.php">RESTORAN SEI SAPI</a>
         <div
           class="collapse navbar-collapse justify-content-end"
@@ -37,7 +37,7 @@
                 $id = $user['id'];
                 $query = mysqli_query($con, "SELECT * FROM users WHERE id = $id")or die(mysqli_error($con));
                 $data =  mysqli_fetch_assoc($query);
-                echo '<a class="nav-link" href="./page/profilePage.php">Hi, '; echo $data['nama']; echo '</a>'; //bingung cara nulisnya lagi tanya arkin
+                echo '<a class="nav-link" href="./page/profilePage.php">Hi, '; echo $data['nama']; echo '</a>'; 
               }
             ?>
           </div>
